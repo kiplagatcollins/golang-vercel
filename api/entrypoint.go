@@ -20,6 +20,7 @@ func registerRouter(r *gin.RouterGroup) {
 	r.GET("/.well-known/nostr.json", handler.Cors, handler.NIP05)
 }
 
+// test
 // init gin app
 func init() {
 	app = gin.New()
